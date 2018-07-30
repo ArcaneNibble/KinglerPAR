@@ -13,9 +13,9 @@ Miscellaneous papers on how we "got to" analytic placers from SA placers:
 * http://www.ece.umich.edu/cse/awards/pdfs/iccad10-simpl.pdf
 
 Proposed overall flow for KinglerPAR:
-* Run some iterations of HWPL-driven QP
+* Run some iterations of HPWL-driven QP
 * Optionally run RippleFPGA partitioning (e.g. this doesn't work on MAX V because it's way too small. It's unclear for iCE40 which doesn't have as much directional routing bias.)
-* Run some more? iterations of HWPL-driven QP.
+* Run some more? iterations of HPWL-driven QP.
 * Run some iterations of congestion-driven QP.
 * Fully place RAM/DSP now (UTPlaceF)
 * Finish congestion-driven global placement (skip RippleFPGA soft BLE packing -- intuition tells me this probably doesn't do much)
@@ -34,6 +34,7 @@ Need to further research (directly-relevant algorithm details):
 Need to further research (FPGA architectures):
 * Investigate global net structures in real FPGAs
 * How will other "special" blocks affect our PAR algorithm? (e.g. PLLs, ADCs, user flash, etc.)
+* Does any FPGA have "fracturable" RAM/DSP blocks? What to do about those?
 
 Need to further research (general abstract CS topics):
 * Efficient cache-optimized data structures, especially for multithreading
@@ -41,7 +42,7 @@ Need to further research (general abstract CS topics):
 * Brief research on numerical stability (can we just use integers/fixed?)
 
 Features for minimum viable product:
-* Quadratic programming core engine, HWPL only
+* Quadratic programming core engine, HPWL only
 * CLB packing
 * Detail placement
 * Final assignment
