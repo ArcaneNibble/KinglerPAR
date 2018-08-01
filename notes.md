@@ -94,3 +94,16 @@ Architectures:
 * MAX10 (future) -- "Altera-style", LUT4, RAM+mult
 * Cyc10LP (future) -- "Altera-style", LUT4, RAM+mult
 * Cyc10GX (future) -- "Altera-style", LUT6/ALM, RAM+DSP
+
+Unsorted references:
+* http://www.cse.cuhk.edu.hk/~byu/papers/C54-ICCAD2016-RippleFPGA-slides.pdf
+* https://chengengjie.github.io/papers/C2-ICCAD16-RippleFPGA.pdf
+* https://pdfs.semanticscholar.org/c1c9/43c047e9d834c8ac487ec6d5292485546744.pdf
+* http://wuxili.net/pdf/TCAD17_UTPlaceF_Li.pdf
+* http://sci-hub.tw/https://ieeexplore.ieee.org/document/6691143/
+* http://sci-hub.tw/https://ieeexplore.ieee.org/document/1560039/
+* http://www.cse.cuhk.edu.hk/~fyyoung/paper/iccad11_ripple.pdf
+* http://appsrv.cse.cuhk.edu.hk/~jkuang/pdf/ripple2.pdf
+* http://janders.eecg.toronto.edu/1387/readings/marcelfpl12.pdf
+* http://www.ece.umich.edu/cse/awards/pdfs/iccad10-simpl.pdf
+* https://atrium.lib.uoguelph.ca/xmlui/bitstream/handle/10214/12985/Abuowaimer_Ziad_201805_PhD.pdf?sequence=5&isAllowed=y
